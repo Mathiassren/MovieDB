@@ -5,6 +5,7 @@ import "./index.css";
 //pages
 import ErrorPage from "./pages/ErrorPage.jsx";
 import WelcomePage from "./pages/WelcomePage.jsx";
+import MainPage from "./pages/MainPage.jsx";
 //route import
 import {
   createBrowserRouter,
@@ -17,6 +18,7 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />} errorElement={<ErrorPage />}>
       <Route index element={<WelcomePage />}></Route>
+      <Route path="mainpage" element={<MainPage />}></Route>
     </Route>
   )
 );

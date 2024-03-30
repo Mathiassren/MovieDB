@@ -22,7 +22,7 @@ const WelcomePage = () => {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
         >
-          <Link to="">
+          <Link to="/mainpage">
             <button>ENTER</button>
           </Link>
         </motion.button>
