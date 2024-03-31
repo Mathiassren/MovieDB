@@ -7,14 +7,14 @@ const Nav = () => {
     <nav className="bg-light-grey h-16 fixed text-white bottom-0 left-0 right-0 bg-[#41403E]">
       <ul className="flex justify-between p-6 items-center h-16">
         <li>
-          <NavLink to="/ActivitiesPage">
+          <NavLink to="">
             <span className="iconBorder flex items-center justify-center border-2 border-white rounded-full w-10 h-10">
               <FiHome className="text-2xl" />
             </span>
           </NavLink>
         </li>
         <li>
-          <NavLink to="/Search">
+          <NavLink to="">
             <span className="iconBorder flex items-center justify-center border-2 border-white rounded-full w-10 h-10">
               <FiSearch className="text-2xl" />
             </span>

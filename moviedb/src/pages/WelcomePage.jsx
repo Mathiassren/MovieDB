@@ -1,4 +1,4 @@
-import LogoAnimation from "../components/StartAnimation";
+import LogoAnimation from "../assets/StartAnimation";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
