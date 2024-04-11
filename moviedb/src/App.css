@@ -8,3 +8,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.hiddenbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  scroll-snap-type: x mandatory;
+}

@@ -2,10 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
+import Search from "./components/Search.jsx";
 //pages
 import ErrorPage from "./pages/ErrorPage.jsx";
 import WelcomePage from "./pages/WelcomePage.jsx";
 import MainPage from "./pages/MainPage.jsx";
+import MovieDetails from "./components/DetailVew.jsx";
+
 //route import
 import {
   createBrowserRouter,
@@ -19,6 +22,8 @@ const router = createBrowserRouter(
     <Route path="/" element={<App />} errorElement={<ErrorPage />}>
       <Route index element={<WelcomePage />}></Route>
       <Route path="mainpage" element={<MainPage />}></Route>
+      <Route path="search" element={<Search />}></Route>
+      <Route path="/movie/:movieId" element={<MovieDetails />} />
     </Route>
   )
 );
